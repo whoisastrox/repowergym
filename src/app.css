@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.geist{
+    font-family: Geist, sans-serif;
+    font-display: optional;
+}
+
+@layer base {
+    @font-face {
+        font-family: Geist;
+        src:url(/Geist/GeistVariableVF.woff2) format("woff2-variations"),
+            url(/Geist/GeistVariableVF.ttf) format("truetype")
+        ;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "apps" : [
+	{
+		"name" : "folliartistica",
+		"script" : "npm",
+		"interpreter" : "none",
+		"args" : "run dev -- --host",
+		"exec_mode" : "fork"
+	}
+    ]
+}
