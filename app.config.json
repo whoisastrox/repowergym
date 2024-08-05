@@ -1,7 +1,7 @@
 {
     "apps" : [
 	{
-		"name" : "folliartistica",
+		"name" : "repowergym",
 		"script" : "npm",
 		"interpreter" : "none",
 		"args" : "run dev -- --host",
